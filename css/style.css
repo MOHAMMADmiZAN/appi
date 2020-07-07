@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.title .img {
+    margin: 10px 0;
+}
+
+.title h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 680px;
+    display: inline-block;
+
+
+}
+
+
+/*=======================================================================================*/
+/*                                                                                nav-bar-start========================================================================================*/
+nav {
+    background: transparent;
+    z-index: 8888;
+    position: absolute !important;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-nav .nav-item a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    transition: 0.4s;
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #6e2449;
+}
+
+/*=======================================================================================*!*/
+/*                                                                             nav-bar-End========================================================================================*/
+/*=======================================================================================*!*/
+/*                                                                             banner-start========================================================================================*/
+#banner {
+    background: url("../images/banner.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 1400px;
+    padding: 160px 0;
+    text-align: center;
+}
+
+#banner .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#banner .text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+    margin: 20px;
+}
+
+#banner .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    width: 735px;
+    display: inline-block;
+}
+
+#banner .button {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#banner .button a {
+    color: white;
+}
+
+#banner .banner-f {
+    padding: 60px 0;
+}
+
+#banner .banner-f .item {
+    padding: 50px 15px 30px 15px;
+    transition: 0.4s;
+}
+
+#banner .banner-f .text h5 {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 24px 0;
+
+
+}
+
+#banner .banner-f .text h6 {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+
+}
+
+#banner .banner-f .item:hover {
+    border-top: 0;
+    box-shadow: 0 3px 5px 1px rgba(171, 168, 171, 1);
+
+}
+
+
+/*=======================================================================================*!*/
+/*                                                                             banner-stop========================================================================================*/
+
+/*=======================================================================================*!*/
+/*                                                                             Our App-start========================================================================================*/
+
+#our-app {
+    background: #f6f7fb;
+    margin: 100px 0 0 0;
+
+}
+
+#our-app .left-s {
+    margin-top: 130px;
+}
+
+#our-app .left-s h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+#our-app .left-s p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#our-app .left-s .btn {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid rgba(240, 41, 114, 1);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 70px;
+    transition: 0.4s;
+
+
+}
+
+#our-app .left-s .button p {
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+#our-app .left-s .button h6 {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#our-app .left-s .btn:hover {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #fff;
+    margin-top: 45px;
+}
+
+#our-app .right-s {
+    text-align: right;
+}
+
+
+/*=======================================================================================*!*/
+/*                                                                             Our App-End========================================================================================*/
+/*=======================================================================================*!*/
+/*                                                                             How-it-Start========================================================================================*/
+#how-it .how-main {
+    margin: 60px 0;
+}
+
+#how-it .how-main .left-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#how-it .how-main .item {
+    display: flex;
+    margin: 50px 0;
+    text-align: left;
+    position: relative;
+}
+
+#how-it .how-main .item .img {
+    padding: 20px;
+}
+
+#how-it .how-main .item .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#how-it .how-main .item .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: 700;
+
+
+}
+#how-it .how-main .item .shape{
+    position: absolute;
+    top: 50%;
+    right: -119px;
+
+}
+
+#how-it .how-main .mid-h {
+    text-align: center;
+}
+#how-it .how-main .right-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*=======================================================================================*!*/
+/*                                                                             How-it-End========================================================================================*/
+/*=======================================================================================*!*/
+/*                                                                          feature-part-start========================================================================================*/
+
+
+
+
+
+
+/*=======================================================================================*!*/
+/*                                                                             feature-part-End========================================================================================*/
