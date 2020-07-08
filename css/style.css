@@ -266,7 +266,8 @@ nav {
 
 
 }
-#how-it .how-main .item .shape{
+
+#how-it .how-main .item .shape {
     position: absolute;
     top: 50%;
     right: -119px;
@@ -276,6 +277,7 @@ nav {
 #how-it .how-main .mid-h {
     text-align: center;
 }
+
 #how-it .how-main .right-h {
     display: flex;
     flex-direction: column;
@@ -290,9 +292,42 @@ nav {
     background: #f6f7fb;
 }
 
+#Awesome-feature .feature-main .f-item {
+    display: flex;
+    margin: 0 0 100px 0;
 
 
+}
 
+#Awesome-feature .feature-main .f-item .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(240, 41, 114, 1);
+    text-align: center;
+    line-height: 60px;
+    margin: 15px 7px 0 0;
+    transition: 0.4s;
+}
+
+#Awesome-feature .feature-main .f-item .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#Awesome-feature .feature-main .f-item .text h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+
+
+}
+
+#Awesome-feature .feature-main .f-item:hover .image {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+}
 
 /*=======================================================================================*!*/
 /*                                                                             feature-part-End========================================================================================*/
