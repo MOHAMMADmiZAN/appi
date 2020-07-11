@@ -592,3 +592,88 @@ nav {
 
 /*<!--===================================================-->*/
 /*<!--                                                team-slide-End===================================================-->*/
+
+
+/*===================================================*/
+/*                                                   price-Start  ===================================================*/
+#price-part {
+    background: url("../images/price-bg.png") no-repeat center;
+    background-size: cover;
+
+}
+
+#price-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+
+#price-part .price-item {
+    background: #fff;
+    text-align: center;
+    width: 360px;
+
+
+}
+
+#price-part .price-item .date {
+    padding: 40px;
+}
+
+#price-part .price-item h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#price-part .price-item p {
+    display: inline-block;
+}
+
+#price-part .price-item .plan {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+}
+
+#price-part .price-item .plan h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#price-part .price-item .plan-details {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 40px;
+    border-bottom: 1px solid rgb(240, 41, 114);
+}
+
+#price-part .price-item .plan-details li {
+    padding: 10px;
+}
+
+#price-part .price-item .price-cost {
+    font-family: 'Raleway', sans-serif;
+    padding: 40px;
+}
+
+#price-part .price-item .price-cost h6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#price-part .price-item .price-cost a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgb(240, 41, 114);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*===================================================*/
+/*                                                   price-End  ===================================================*/
