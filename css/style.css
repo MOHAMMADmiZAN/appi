@@ -456,7 +456,7 @@ nav {
     position: absolute;
     top: 30px;
     left: 30px;
-    opacity: 0;
+    transform: scale(0);
     transition: 0.7s;
     text-align: center;
 }
@@ -506,22 +506,21 @@ nav {
 }
 
 #awe-team .av-1:hover .overlay {
-    opacity: 1;
+    transform: scale(1);
 
 }
 
 #awe-team .av-2:hover .overlay {
-    opacity: 1;
-
+    transform: scale(1);
 }
 
 #awe-team .av-3:hover .overlay {
-    opacity: 1;
+    transform: scale(1);
 
 }
 
 #awe-team .av-4:hover .overlay {
-    opacity: 1;
+    transform: scale(1);
 
 }
 
