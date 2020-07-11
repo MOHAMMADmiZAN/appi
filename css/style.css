@@ -706,7 +706,57 @@ nav {
 /*                                                   price-End  ===================================================*/
 /*===================================================*/
 /*                                                   question-part-start  ===================================================*/
+#question .left-acc {
+    display: flex;
+}
 
+#question .left-acc .img-line {
+    margin-top: 20px;
+}
+
+#question .left-acc .acc-de {
+    margin-left: 30px;
+    width: 100%;
+}
+
+#question .left-acc .acc-de .item {
+    padding: 25px 15px;
+    box-shadow: 1px 1px 35px 1px rgba(69, 70, 77, 1);
+    border-left: 2px solid rgb(240, 41, 114);
+    margin-top: 30px;
+}
+
+#question .left-acc .acc-de .item .acc-item {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#question .left-acc .acc-de .item .acc-head {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#question .left-acc .acc-de .item .acc-btn {
+    background: #f79582;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#question .left-acc .acc-de .item .acc-show {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    display: none;
+    transition: 0.4s;
+}
 
 /*===================================================*/
 /*                                                   question-part-End  ===================================================*/
