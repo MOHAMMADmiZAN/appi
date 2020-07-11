@@ -531,3 +531,64 @@ nav {
 
 /*<!--===================================================-->*/
 /*<!--                                                Awesome-team-End===================================================-->*/
+
+
+/*<!--===================================================-->*/
+/*<!--                                                team-slide-Start===================================================-->*/
+#team .slide {
+    padding: 100px;
+}
+
+#team .slide .item {
+    width: 825px;
+    margin: 0 auto 10px auto;
+    box-shadow: 1px 1px 35px 1px rgba(69, 70, 77, 1);
+    padding: 50px;
+    position: relative;
+
+}
+
+#team .slide .item .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -32%;
+    left: 50%;
+    transform: translateY(50%) translateX(-50%);
+    background: url("../images/team-1.png") no-repeat center;
+    background-size: cover;
+
+
+}
+
+#team .slide .item .text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;;
+}
+
+#team .slide .item .text h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#team .slide .item .text h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+
+
+}
+
+#team .slide .item .text p {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 30px;
+}
+
+#team .slide .dot {
+    text-align: center;
+}
+
+/*<!--===================================================-->*/
+/*<!--                                                team-slide-End===================================================-->*/
