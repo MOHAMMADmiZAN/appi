@@ -605,7 +605,7 @@ nav {
 #price-part .overlay {
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 
@@ -618,7 +618,7 @@ nav {
 }
 
 #price-part .price-item .date {
-    padding: 40px;
+    padding: 30px;
 }
 
 #price-part .price-item h5 {
@@ -626,6 +626,7 @@ nav {
     font-weight: 700;
     font-size: 50px;
     display: inline-block;
+    transition: 0.4s;
 }
 
 #price-part .price-item p {
@@ -647,8 +648,12 @@ nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    padding: 40px;
+    padding: 30px;
     border-bottom: 1px solid rgb(240, 41, 114);
+}
+
+#price-part .price-item .plan-details ul {
+    margin: 0;
 }
 
 #price-part .price-item .plan-details li {
@@ -657,13 +662,15 @@ nav {
 
 #price-part .price-item .price-cost {
     font-family: 'Raleway', sans-serif;
-    padding: 40px;
+    padding: 30px;
+    transition: 0.4s;
 }
 
 #price-part .price-item .price-cost h6 {
     font-size: 16px;
     font-weight: 600;
-    padding: 10px;
+    padding: 20px;
+    transition: 0.4s;
 }
 
 #price-part .price-item .price-cost a {
@@ -673,6 +680,25 @@ nav {
     border: 1px solid rgb(240, 41, 114);
     padding: 10px;
     border-radius: 20px;
+    transition: 0.4s;
+}
+
+#price-part .price-item h5:hover {
+    color: #f79582;
+}
+
+#price-part .price-item .plan h6:hover {
+    color: #ffffff;
+}
+
+#price-part .price-item .price-cost:hover {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #ffffff;
+}
+
+#price-part .price-item .price-cost a:hover {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #ffffff;
 }
 
 /*===================================================*/
