@@ -605,7 +605,8 @@ nav {
 #price-part .overlay {
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.8);
+    padding-bottom: 100px;
 }
 
 
@@ -663,13 +664,13 @@ nav {
 #price-part .price-item .price-cost {
     font-family: 'Raleway', sans-serif;
     padding: 30px;
-    transition: 0.4s;
+
 }
 
 #price-part .price-item .price-cost h6 {
     font-size: 16px;
     font-weight: 600;
-    padding: 20px;
+    padding-bottom: 20px;
     transition: 0.4s;
 }
 
@@ -703,3 +704,9 @@ nav {
 
 /*===================================================*/
 /*                                                   price-End  ===================================================*/
+/*===================================================*/
+/*                                                   question-part-start  ===================================================*/
+
+
+/*===================================================*/
+/*                                                   question-part-End  ===================================================*/
