@@ -706,6 +706,10 @@ nav {
 /*                                                   price-End  ===================================================*/
 /*===================================================*/
 /*                                                   question-part-start  ===================================================*/
+#question {
+    padding-bottom: 100px;
+}
+
 #question .left-acc {
     display: flex;
 }
@@ -714,48 +718,101 @@ nav {
     margin-top: 20px;
 }
 
-#question .left-acc .acc-de {
-    margin-left: 30px;
-    width: 100%;
+#question .left-acc .accordion {
+    margin-left: 40px;
 }
 
-#question .left-acc .acc-de .item {
-    padding: 25px 15px;
-    box-shadow: 1px 1px 35px 1px rgba(69, 70, 77, 1);
+.accordion .accordion-item {
     border-left: 2px solid rgb(240, 41, 114);
-    margin-top: 30px;
+    box-shadow: 1px 1px 35px 1px rgba(69, 70, 77, 1);
+    margin-bottom: 20px;
+    padding: 0 30px;
 }
 
-#question .left-acc .acc-de .item .acc-item {
-    display: flex;
-    justify-content: space-between;
-
-
-}
-
-#question .left-acc .acc-de .item .acc-head {
+#question .left-acc .accordion .accordion-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
-#question .left-acc .acc-de .item .acc-btn {
-    background: #f79582;
-    color: #ffffff;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
+.accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: black;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
 }
 
-#question .left-acc .acc-de .item .acc-show {
+
+.accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    background: #f99582;
+    border-radius: 50%;
+
+}
+
+.accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 3px;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+}
+
+.accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 10px;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: opacity 200ms linear, max-height 200ms linear;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    margin-top: 20px;
-    display: none;
-    transition: 0.4s;
+    margin-bottom: 30px;
 }
 
 /*===================================================*/
