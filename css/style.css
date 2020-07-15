@@ -817,3 +817,120 @@ nav {
 
 /*===================================================*/
 /*                                                   question-part-End  ===================================================*/
+/*===================================================*/
+/*                                                   Download-part-start  ===================================================*/
+
+#download {
+    background: rgb(240, 41, 114);
+    padding-top: 60px;
+    color: white;
+}
+
+#download .left-side h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#download .left-side p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#download .left-side .button {
+    display: inline-flex;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 40px;
+    align-items: center;
+    margin-top: 50px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#download .left-side .button .icon {
+    margin-right: 10px;
+}
+
+#download .left-side .button .text h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+#download .left-side .button .text h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#download .left-side .button:hover {
+    background: linear-gradient(45deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #ffffff;
+    border-color: rgb(240, 41, 114);
+}
+
+/*===================================================*/
+/*                                                   Download-part-End ===================================================*/
+
+/*===================================================*/
+/*                                                   blog-part-start ===================================================*/
+#blog .blog-write {
+    padding-bottom: 100px;
+}
+
+#blog .blog-write .text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+#blog .blog-write .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+#blog .blog-write .text h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 25px 0;
+}
+
+#blog .blog-write .text h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 15px;
+    transition: .4s;
+}
+
+#blog .blog-write .text i {
+    font-size: 14px;
+    color: #f89483;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#blog .blog-write:hover h3 {
+    color: #f89483;
+
+}
+
+#blog .blog-write:hover .text h5 {
+    color: #f89483;
+}
+
+#blog .blog-write:hover i {
+    opacity: 1;
+}
+
+/*===================================================*/
+/*                                                   blog-part-end ===================================================*/
