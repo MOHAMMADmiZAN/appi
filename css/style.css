@@ -614,7 +614,7 @@ nav {
     background: #fff;
     text-align: center;
     width: 360px;
-
+    transition: 0.4s;
 
 }
 
@@ -684,20 +684,20 @@ nav {
     transition: 0.4s;
 }
 
-#price-part .price-item h5:hover {
+#price-part .price-item:hover h5 {
     color: #f79582;
 }
 
-#price-part .price-item .plan h6:hover {
+#price-part .price-item:hover .plan h6 {
     color: #ffffff;
 }
 
-#price-part .price-item .price-cost:hover {
+#price-part .price-item:hover .price-cost {
     background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
     color: #ffffff;
 }
 
-#price-part .price-item .price-cost a:hover {
+#price-part .price-item:hover .price-cost a {
     background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
     color: #ffffff;
 }
@@ -977,7 +977,7 @@ nav {
 #fotter-part .input-form a {
     display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: 77px;
     transform: translateY(-50%);
 }
