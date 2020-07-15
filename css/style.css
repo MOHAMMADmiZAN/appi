@@ -934,3 +934,233 @@ nav {
 
 /*===================================================*/
 /*                                                   blog-part-end ===================================================*/
+/*===================================================*/
+/*                                                   sub-part-start ===================================================*/
+#fotter-part {
+    margin-top: 150px;
+    position: relative;
+}
+
+#fotter-part .text {
+    background: #2b313f;
+    padding: 30px 0;
+}
+
+#fotter-part .title-box h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 90px;
+}
+
+#fotter-part .input-form {
+    text-align: center;
+    position: relative;
+}
+
+#fotter-part .input-form .input {
+    width: 500px;
+    height: 75px;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #222222;
+    outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 400;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .input-form a {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 77px;
+    transform: translateY(-50%);
+}
+
+#fotter-part .input-form i {
+    padding: 25px 60px;
+    background-image: linear-gradient(to left, #fca0a3, #ef2872);
+    font-size: 24px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+#fotter-part .form-table {
+    width: 1111px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#fotter-part .form-table .left {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#fotter-part .form-table .left h3 {
+    text-align: left;
+    margin-left: 96px;
+}
+
+#fotter-part .form-table .left .touch {
+    width: 470px;
+    margin-top: 30px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#fotter-part .form-table .left .touch::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .form-table .left textarea {
+    width: 470px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #c9c9c9;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 0;
+    height: 70px;
+    margin-top: 40px;
+}
+
+#fotter-part .form-table .left button {
+    display: block;
+    background: transparent;
+    outline: none;
+    border: 0;
+    margin-left: 96px;
+    padding-top: 40px;
+}
+
+#fotter-part .form-table .left a {
+    display: inline-block;
+    padding: 15px 25px;
+    background-image: linear-gradient(to left, #fca0a3, #ef2872);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .right {
+    background: #4c5461;
+    padding: 99px 0;
+}
+
+#fotter-part .right ul {
+    display: flex;
+}
+
+#fotter-part .right ul li i {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#fotter-part .right ul li i:hover {
+    background: #f13c75;
+    color: #fff;
+    cursor: pointer;
+    border-color: #f13c75;
+}
+
+#fotter-part .right h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .right p {
+    width: 330px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#fotter-part .right .text-sign {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    width: 225px;
+    padding-left: 15px;
+}
+
+#fotter-part .right .right-text {
+    margin-left: 75px;
+}
+
+#fotter-part .map img {
+    width: 100%;
+    height: 600px;
+}
+
+#fotter-part .fotter-bottom {
+    width: 100%;
+    background: #2b313f;
+    padding: 300px 0 50px 0;
+    margin-top: -5px;
+}
+
+#fotter-part .fotter-bottom .icon {
+    text-align: center;
+}
+
+#fotter-part .fotter-bottom .icon i {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#fotter-part .fotter-bottom .icon i:hover {
+    background: #f13c75;
+    color: #fff;
+}
+
+
+/*------------------------------
+            fotter part end
+--------------------------------*/
